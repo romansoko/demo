@@ -1,12 +1,12 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.qa_tests</groupId>
-	<artifactId>WST_37</artifactId>
+	<artifactId>invalid-dep</artifactId>
 	<version>1.0</version>
 	<dependencies>
 	     <dependency>
             <groupId>io.netty</groupId>
-            <artifactId>netty-alls</artifactId>
+            <artifactId>netty-allstar</artifactId>
             <version>4.0.33.Final</version>
         </dependency>
 	</dependencies>
