@@ -18,23 +18,30 @@
       "enabled": true
     }
   },
-      "hostRules": [
-      {
+  "hostRules": [
+    {
       "matchHost": "https://wsdev.jfrog.io/artifactory/default-libs-snapshot",
       "hostType": "maven",
-	  "username": "romans",
+      "username": "romans",
       "encrypted": {
         "token": "wcBMA8xOaBJvzJNbAQf/SzggmNT1XcGqTcCzwxFw90aTAg+gaZDBbcijmM+YzMeRPru6PXJmqI7oBszJr8INMyyxK/xCeDPv5RxNAMRMgAPkgBUiZw2uhnlVP8fwYNt4UNh1KgFdCGQ2Vg2W1K00h1Iv++MaFglqEjqaSDx3i1zneF1PqPpacNR/l4e1iJPc967sjGByR29JgqHsDECjya+/syzSyI7IgWjqGoIlQZSnqs/49ddWhmt+z1QJOyS1v2iRmvsgT27oxIf4xgUhHLoWYptRe+8F/VsvqHkucIx8rdpSqPJV2U6vpmlAdEVJVH20Uwr1QagefUvrleydYjC85RRawH7Xic6XP13tgtJaAW9S2nmctc50O2ktt09pz45bs6F8YMxnz4jaIoS/SVwJn9U1wOWIedzaUfB9qExgkCw0s3r1MiKCt+JjM5vtbcffQaONBw3YNSyfVLycVMBtiX6x0GXDl3q0"
-        }
-   },
-  {
-    "matchHost": "https://wsdev.jfrog.io/artifactory/default-libs-release<,
-    "hostType": "maven",
-	"username": "romans",
-    "encrypted": {
-      "token": "wcBMA8xOaBJvzJNbAQf/VJhJnlVULdixZBzoIdQ7nSkkLrFlJ3SptH5BnfdeGvi6yS/u39MFxJp0aCJVViH/ecdzItgBiLrm+oLv3IATaySzU8gtxr7/SyijdSw4bPsQSWIqPA7eyYQ6HDOMaoSJYRLtU5YuuOViI/YLA2k31TNsdRgAvCB1Jft4SGlzg2fn64WzK5pm5FwAeLC0xBX4WApUcujNXdlZhW95eNl32RFku9tl24IPUGG++DM9MKGeMpNIcVDHcCXFNN4NZyQunQZcFrt6FMBYlyt2y0Pk0bzlRF+aEjwlwy3/oo792MycwP/LSk/JOWUu2gqJd846kZLno6E10nW9QIxuQXX11NKQAdmZzJkFcG01SdfF60V6n4M9hnQsPc2IZ1ARl0+WmY66ZJnpjq6c3rRI+TCcllhYqNYMCPykZ+b1G8U1qycPEEqdM23DDKkdtc8MAJl/5n12RU/WyJ9W3tYRCgPxnjA49e7PaYJT1l+645IFPmBRnVeukc6LtiYQhnZKFdFTGPPK3ESngEwnar8aa5FtzylG"
+      }
+    },
+    {
+      "matchHost": "https://wsdev.jfrog.io/artifactory/default-libs-release",
+      "hostType": "maven",
+      "username": "romans",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf/VJhJnlVULdixZBzoIdQ7nSkkLrFlJ3SptH5BnfdeGvi6yS/u39MFxJp0aCJVViH/ecdzItgBiLrm+oLv3IATaySzU8gtxr7/SyijdSw4bPsQSWIqPA7eyYQ6HDOMaoSJYRLtU5YuuOViI/YLA2k31TNsdRgAvCB1Jft4SGlzg2fn64WzK5pm5FwAeLC0xBX4WApUcujNXdlZhW95eNl32RFku9tl24IPUGG++DM9MKGeMpNIcVDHcCXFNN4NZyQunQZcFrt6FMBYlyt2y0Pk0bzlRF+aEjwlwy3/oo792MycwP/LSk/JOWUu2gqJd846kZLno6E10nW9QIxuQXX11NKQAdmZzJkFcG01SdfF60V6n4M9hnQsPc2IZ1ARl0+WmY66ZJnpjq6c3rRI+TCcllhYqNYMCPykZ+b1G8U1qycPEEqdM23DDKkdtc8MAJl/5n12RU/WyJ9W3tYRCgPxnjA49e7PaYJT1l+645IFPmBRnVeukc6LtiYQhnZKFdFTGPPK3ESngEwnar8aa5FtzylG"
+      }
+    },
+    {
+      "matchHost": "https://wsdev.jfrog.io/artifactory/api/pypi/default-pypi/simple",
+      "hostType": "pypi",
+      "userName": "romans",
+      "encrypted": {
+        "password": "wcBMA8xOaBJvzJNbAQgAlj48+PvP69MVik/MuaabL9TL7WNX1kTIOOewG6kc78g4f7vfC4vaqThRP/p2WEGyM00DyALr/gKYyy1OAHrhu/Qv/gsTnKnHNi4un7W3bi4uY+qmOwyulUiekbhtz77WWVxG3Kj1A5fP6UsF2yl6BPjsv9TrzCS8OGca23iZuQfL0HZM27++5pfroSABL2fubaxHCfMUx17bBPvCWDCu8R2834jJKTf1IaIpCBnvjuPrdvkeS4fkpMxjKi2myiQWZAPW/IUxlzlQAW7reNQgedub+MxCpt3yVPmD3Kz7IZQ3U07SD6WqxXu96KI/+iBgeBbkIZwWEkbN89ba07o+ndJcAdQkMM9YyV2wXVbMZbfHgOCz4/k17wv9S5v4WVKk6g2+oiVVyXShppbX7SxF0X4z+a5/zZ+QZQvtAPXRTih4d4Ww6Xtie8DU0z1os8/WeFr/covIbNKifs29Qqk"
+      }
     }
-   }    
   ]
-}     
-
+}
