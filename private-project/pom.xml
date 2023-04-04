@@ -11,8 +11,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.example</groupId>
-			<artifactId>simple-maven-project-sultan</artifactId>
-			<version>12.1-SNAPSHOT</version>
+			<artifactId>builder-demo</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 </project>
