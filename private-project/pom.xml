@@ -10,9 +10,9 @@
 			<version>2.7.7</version>
 		</dependency>
 		<dependency>
-			<groupId>org.example</groupId>
-			<artifactId>builder-demo</artifactId>
-			<version>1.0</version>
+			<groupId>org.whitesource</groupId>
+			<artifactId>log4j-netty-sample</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
