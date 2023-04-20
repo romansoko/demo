@@ -28,7 +28,7 @@
         }
    },
   {
-    "matchHost": "https://wsdev.jfrog.io/artifactory/default-libs-release<,
+    "matchHost": "https://wsdev.jfrog.io/artifactory/default-libs-release,
     "hostType": "maven",
 	"username": "romans",
     "encrypted": {
