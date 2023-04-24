@@ -6,7 +6,7 @@
 	<dependencies>
 	     <dependency>
             <groupId>io.netty</groupId>
-            <artifactId>netty-allstar</artifactId>
+            <artifactId>netty-all</artifactId>
             <version>4.0.33.Final</version>
         </dependency>
 	</dependencies>
