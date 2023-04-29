@@ -1,7 +1,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.qa_tests</groupId>
-	<artifactId>invalid-dep</artifactId>
+	<artifactId>WST_37</artifactId>
 	<version>1.0</version>
 	<dependencies>
 	     <dependency>
