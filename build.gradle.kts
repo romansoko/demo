@@ -1,10 +1,3 @@
-import java.time.Instant
-
-/*
- * Copyright 2021, FMR LLC
- * All Rights Reserved
- * Fidelity Confidential Information
- */
 buildscript {
     apply(from = "./properties.gradle.kts")
     repositories {
@@ -37,12 +30,7 @@ buildscript {
             classpath("com.fmr.PR100660:ap011663-toggle-request-plugin:0.1.96")
     }
 }
-plugins {
-    id("org.jetbrains.kotlin.android") version libs.versions.kotlin apply false
-    `maven-publish`
-    id("com.google.devtools.ksp").version("1.7.10-1.0.6").apply(false)
-    id("org.jetbrains.kotlinx.kover") version libs.versions.kover
-}
+
 
 
 if (project.findProperty("toggle-request.enable") == "true")
@@ -85,6 +73,12 @@ allprojects {
         val repositoryConfig: (RepositoryHandler) -> Unit by rootProject.extra
         repositoryConfig(this)
     }
+}
+plugins {
+    id("org.jetbrains.kotlin.android") version libs.versions.kotlin apply false
+    `maven-publish`
+    id("com.google.devtools.ksp").version("1.7.10-1.0.6").apply(false)
+    id("org.jetbrains.kotlinx.kover") version libs.versions.kover
 }
 subprojects {
     afterEvaluate {
