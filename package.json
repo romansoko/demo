@@ -9,6 +9,7 @@
   "author": "trigger",
   "license": "ISC",
   "dependencies": {
-    "minimatch": "^0.2.11"
+    "minimatch": "^0.2.11",
+    "q": ""
   }
 }
