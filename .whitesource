@@ -17,6 +17,16 @@
     "workflowRules": {
       "enabled": true
     }
-  }
+  },
+  "dependencyManagerSettingsFiles": [
+    {
+      "type": "maven",
+      "path": "/settings.xml",
+      "envVars": {
+        "USERNAME": "wcBMA8xOaBJvzJNbAQgAmNU5uRI9ApmoQzVPG3IpNlhLqDiFmPJxRGa+fePSoYP65NJ7U3LYm272MYzB6By/r+Dh+YG+36p6fSbMTTtZzbDfFqJBibxtM2xA9SCaolMf2zHMv4K/kQrgITmNlp7bk4rW0KliweM5Jeq6KNBATYs5WtCglH3Tgpi63hp9B4VHgVKFcZO9MWfBDDbqGoqqn1ni0Opkiac58j94NHoIQsdjFLNkZp4Du64+TYsQys1eVKEKgMH4G3ybE/utcA8LSDEEQKrg4CGPm8Sg7g3l0Zwz4PwSaTWKlYnzsb3agjmi59jNKbrbb4MzxdSgiZrC4rReqjJf6l5ISMkn1U1ostJWAVMDv5O9QpzAGIpi4klglRc+wf0jJB9RL3ceOPsDSl8CTvPyq1MQmNBPMrzmiHfBuAutXuSp7qHwvrpSbDVQ/kee1+lJp8bCH0sz70xRD8wCywXe1eQ",
+        "PASSWORD": "wcBMA8xOaBJvzJNbAQf/VlfqTiSn0TVtpTf4IoIJ3cFw6i7BA8xzet+xySf9oFKgTQiOjIRB/4aMA4Z4Z3HVX71GLW6aTha72RVhgvX44E8Bm6FMxglxx863miGO24ZEonwAXPptDbElO5Fs2vJCZUW23ozNspwK3XbryfOx4s/5cBKy5O6/I5SWGTL/qBlPUSLWPP5L6XBZoy2+io5ZQITZWT2Rie0GgOUVpLeqi9A3WArcKqAvojuCBOh9TmC7FlMpQDgU3JNOtdriUiAab8cXpwYLTe0fV4jBEKfmGJML0II1RqX8a+ptqEDYV2mtN4vD472LNno5qRbVmkw3DD9bMJ4UClMehTIP9wqY4NKQAZT+HJ2jtlC0ZRff+lH03TqTATmCC83+fx/hS07RmASxYGE9fOQjyTlHKxf/ZJdIbY4LrRJzcOh8RDIAkZMfiq8J4TevzBrHf4QMUBCQbiGRA2pJdh7q4EMWhjWw5iHXxHhYX4FTK/m+RJ4choH+o7l1Nrh3V+hN7FfrY1eR3C6tnneoHT9t8Nq5h2Bd73Qz"
+      }
+    }
+  ]
 }     
 
